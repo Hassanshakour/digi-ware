@@ -1,1 +1,58 @@
-# digi-ware
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mishmash Shop</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 0; }
+    header { background: #222; color: white; padding: 25px; text-align: center; font-size: 2.2em; font-weight: bold; letter-spacing: 1px; }
+    main { max-width: 1200px; margin: 30px auto; padding: 10px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+    .product { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; text-align: center; }
+    .product:hover { transform: translateY(-5px); box-shadow: 0 6px 16px rgba(0,0,0,0.2); }
+    .product img { width: 100%; border-bottom: 1px solid #ccc; display: block; }
+    .product p { font-weight: bold; margin: 12px; font-size: 1.05em; color: #222; }
+    .product a { display: inline-block; margin-bottom: 12px; text-decoration: none; color: #ff5a1f; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>Mishmash Shop</header>
+
+  <main>
+    <div class="products">
+
+      <div class="product">
+        <img src="https://i.ebayimg.com/images/g/OggAAeSwxEpo5r8N/s-l500.jpg" alt="6x Aperol Spritz Signature Glas Calice 0,45 l">
+        <p>6x Aperol Spritz Signature Glas Calice 0,45 l – Original Aperitif-Gläser Set</p>
+        <a href="https://www.ebay.de/itm/397136893101" target="_blank">Zum Produkt</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.ebayimg.com/images/g/XucAAeSwt15pAz1y/s-l500.jpg" alt="Whisky Geschenkset in Holzbox – Jack Daniel's 0,7l">
+        <p>Make your Whisky Geschenkset in Holzbox mit 1x Flasche 0,7l Jack Daniel's</p>
+        <a href="https://www.ebay.de/itm/397209477238" target="_blank">Zum Produkt</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.ebayimg.com/images/g/NjcAAeSw1Mho3XBf/s-l500.jpg" alt="Aperol Spritz LED-Wandschild 85x50 cm">
+        <p>Aperol Spritz LED-Wandschild – 85×50 cm, Leuchtschrift für drinnen & draußen</p>
+        <a href="https://www.ebay.de/itm/397113088441" target="_blank">Zum Produkt</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.ebayimg.com/images/g/Eu8AAeSw~yZo-Sss/s-l500.jpg" alt="2er Set – Aperol Spritz Signature Glas">
+        <p>Gläser 2er Aperol Spritz Signature Glas, Original Aperitif</p>
+        <a href="https://www.ebay.de/itm/397184628021" target="_blank">Zum Produkt</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.ebayimg.com/images/g/M0gAAeSwzzNpGa7A/s-l500.jpg" alt="5x 6er Aperol Gläser + Versand">
+        <p>5x 6er Aperol Gläser + kostenfrei Versand</p>
+        <a href="https://www.ebay.de/itm/397275714743" target="_blank">Zum Produkt</a>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
